@@ -30,7 +30,7 @@ export const CharacterInfo = ({ characterId }) => {
             <div className="characterInfo__photo characterInfo__wrapper">
                <img
                 className="characterInfo__image;"
-                src="/images/face_0.jpg"
+                src="../images/face_0.jpg"
                 alt={`face of ${characterInfo.gender}`}
               >
               </img>

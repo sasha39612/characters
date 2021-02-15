@@ -27,11 +27,11 @@ export const Footer = () => (
 
         <div className="footer__networks">
           <a className="footer__networksLink footer__networksLink-first" href="https://www.facebook.com">
-            <img src="/images/Vector_3.svg" alt="facebook"></img>
+            <img src="../images/Vector_3.svg" alt="facebook"></img>
           </a>
 
           <a className="footer__networksLink" href="https://www.instagram.com">
-            <img src="/images/Group_13.svg" alt="instagram"></img>
+            <img src="../images/Group_13.svg" alt="instagram"></img>
           </a>
         </div>
       </footer>

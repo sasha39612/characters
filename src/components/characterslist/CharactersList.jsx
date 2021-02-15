@@ -37,7 +37,7 @@ export const CharactersList = () => {
           <section className="character__photo">
             <img
               className="character__image"
-              src="/images/face_0.jpg"
+              src="../images/face_0.jpg"
               alt={`face of ${character.gender}`}
             >
             </img>
