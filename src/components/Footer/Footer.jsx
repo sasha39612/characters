@@ -31,7 +31,7 @@ export const Footer = () => (
           </a>
 
           <a className="footer__networksLink" href="https://www.instagram.com">
-            <img src="../../public/images/Group_13.svg" alt="instagram"></img>
+            <img src="../images/Group_13.svg" alt="instagram"></img>
           </a>
         </div>
       </footer>
