@@ -1,0 +1,20 @@
+
+.characterInfo {
+  display: flex;
+  justify-content: stretch;
+  align-content: stretch;
+  
+  &__details {
+    @extend %stretch-panel !optional;
+
+    flex-basis: 60%;
+    border-color: blue;
+  }
+
+  &__comment {
+    @extend %stretch-panel !optional;
+
+    flex-basis: 30%;
+    border-color: green;
+  }
+}

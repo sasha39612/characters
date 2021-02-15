@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  position: sticky;
+  background-color: chocolate;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__list {
+    
+    list-style-type: none;
+    margin: 0;
+  }
+
+  &__item {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  }
+}
