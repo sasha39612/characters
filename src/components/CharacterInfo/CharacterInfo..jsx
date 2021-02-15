@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import facePicture from '../images/face_0.jpg';
 
 import './CharacterInfo.scss';
 
@@ -30,7 +31,7 @@ export const CharacterInfo = ({ characterId }) => {
             <div className="characterInfo__photo characterInfo__wrapper">
                <img
                 className="characterInfo__image;"
-                src="../images/face_0.jpg"
+                src={facePicture}
                 alt={`face of ${characterInfo.gender}`}
               >
               </img>

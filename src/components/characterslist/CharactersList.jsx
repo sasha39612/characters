@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getCharactersFromApi } from '../../api/Api';
+import facePicture from '../images/face_0.jpg';
 
 import './CharactersList.scss';
 
@@ -37,7 +38,7 @@ export const CharactersList = () => {
           <section className="character__photo">
             <img
               className="character__image"
-              src="../images/face_0.jpg"
+              src={facePicture}
               alt={`face of ${character.gender}`}
             >
             </img>
